@@ -44,6 +44,12 @@ const filesSchema = new Schema({
         type:Number,
         lowercase: true,
         trim:true
+    },
+    createDate :{
+        type:Date,
+    },
+    updateDate :{
+        type:Date,
     } 
 
 });
